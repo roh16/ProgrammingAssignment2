@@ -1,5 +1,4 @@
-
-makeCacheMatrix <- function(x = matrix()) {  #special matri is created
+makeCacheMatrix <- function(x = matrix()) {  #special matrix is created
  m <- NULL
   set <- function(y) {
     x <<- y
