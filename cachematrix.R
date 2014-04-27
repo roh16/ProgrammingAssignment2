@@ -26,5 +26,5 @@ m <- x$getinv()         #query the x vector's cache
   m <- solve(data, ...)   #computation of inverse  
   x$setinv(m)              #save the result back to x's cache
   m       
-        #
+        
 }
